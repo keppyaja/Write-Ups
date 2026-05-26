@@ -29,18 +29,18 @@ b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2kyMDRoa2o2fQ=='
 
 After removing the `b'...'` wrapper and decoding the second Base64 string, we get:
 ```
-p~vKJAM{jhxz h_k3jy9w3k_i204hkj6}
+wpjvJAM{jhlzhy_k3jy9wa3k_i204hkj6}
 ```
 
 ### Layer 3: Caesar Cipher
 
-The final layer uses Caesar Cipher encryption with a shift of 19.
+The final layer uses Caesar Cipher encryption with a shift of 7.
 
 **How to determine the shift:**
-- Looking at the encrypted text: `p~vKJAM{...}`
+- Looking at the encrypted text: `wpjvJAM{...}`
 - The flag format should be: `picoCTF{...}`
-- Comparing `p` → `p` and `~` → `i`, we can calculate the shift
-- Distance from `p` to `w` (in plaintext) = 19 shifts
+- Comparing `w` → `p` and `p` → `i`, we can calculate the shift
+- Distance from `w` to `p` (backwards) = 7 shifts
 
 ## Solution Methods
 
@@ -51,8 +51,8 @@ Use the online tool [CyberChef](https://gchq.github.io/CyberChef/):
 1. Go to CyberChef
 2. Paste the encrypted content
 3. Add "From Base64" operation (repeat twice for both layers)
-4. Add "ROT13" or "Caesar Cipher Brute Force" operation
-5. Adjust shift value to 19 if needed
+4. Add "Caesar Cipher Brute Force" operation
+5. Adjust shift value to 7 or let it auto-detect
 6. Read the decrypted output
 
 ### Method 2: Python Script
@@ -142,11 +142,11 @@ Use online Caesar cipher tools:
 ```
 Encrypted (Base64 Layer 1): SGVsbG8gV29ybGQh...
 ↓
-After Base64 Decode 1: d3BqdkpBTXtxaGx3aHlfazNqeTl3YTNrX2kyMDRoa2o2fQ==
+After Base64 Decode 1: d3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2kyMDRoa2o2fQ==
 ↓
-After Base64 Decode 2: p~vKJAM{jhxz h_k3jy9w3k_i204hkj6}
+After Base64 Decode 2: wpjvJAM{jhlzhy_k3jy9wa3k_i204hkj6}
 ↓
-After Caesar (shift 19): picoCTF{caesar_d3cr9pt3d_b204adc6}
+After Caesar (shift 7): picoCTF{caesar_d3cr9pt3d_b204adc6}
 ```
 
 ## Flag
