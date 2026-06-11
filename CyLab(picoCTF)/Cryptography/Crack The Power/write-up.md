@@ -1,4 +1,4 @@
-# picoCTF — Small e (Coppersmith / Low Public Exponent Attack) Write-Up
+# picoCTF — Crack The Power Write-Up
 
 | Field | Detail |
 |---|---|
