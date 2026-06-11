@@ -4,7 +4,7 @@
 |---|---|
 | **Challenge Name** | RSA Weak Key (N is Even) |
 | **Category** | Cryptography |
-| **Difficulty** | `Easy` |
+| **Difficulty** | Easy |
 
 ---
 
