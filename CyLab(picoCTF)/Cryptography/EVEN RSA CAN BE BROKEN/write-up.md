@@ -4,7 +4,7 @@
 |---|---|
 | **Challenge Name** | RSA Weak Key (N is Even) |
 | **Category** | Cryptography |
-| **Service** | `nc verbal-sleep.picoctf.net 64809` |
+| **Difficulty** | `Easy` |
 
 ---
 
