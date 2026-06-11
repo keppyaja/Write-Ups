@@ -121,10 +121,8 @@ AES-ECB Decrypt + Unpad → picoCTF{...}
 ## Flag
 
 ```
-picoCTF{...}
+picoCTF{sa3S_sEc9t_fbbd0fb7}
 ```
-
-*(Jalankan skrip di atas pada terminal untuk mendapatkan flag yang sesungguhnya)*
 
 ---
 
