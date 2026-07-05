@@ -112,7 +112,6 @@ Output ini mengonfirmasi bahwa file benar-benar berhasil dipulihkan menjadi gamb
 ```
 picoCTF{h1dd3n_1n_th3_b1n4ry_cc2099d3}
 ```
-*(didapatkan dengan membuka gambar JPEG hasil konversi — nilai unik di akhir flag tergantung instance masing-masing)*
 
 ## Kesimpulan (Key Takeaways)
 
