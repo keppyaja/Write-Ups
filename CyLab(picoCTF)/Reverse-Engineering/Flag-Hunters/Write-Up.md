@@ -1,12 +1,13 @@
 # picoCTF - Flag Hunters Write-Up
 
 ## Challenge Information
-
-**Challenge Name:** Flag Hunters
-**Category:** Reverse Engineering
-**Difficulty:** Easy
-**Connection:** `nc verbal-sleep.picoctf.net 61812`
-**Source:** `lyric-reader.py`
+| Attribute | Detail |
+|---|---|
+|Challenge Name|Flag Hunters|
+|Category|Reverse Engineering|
+|Difficulty|Easy|
+|Points|75|
+|Source|`lyric-reader.py`|
 
 ## Challenge Description
 
