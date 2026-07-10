@@ -11,14 +11,7 @@
 
 ## Challenge Description
 
-The program plays out a rap song about CTF hacking, line by line, over a netcat
-connection. The song lyrics act like a tiny bytecode program: labels
-(`[VERSE1]`, `[REFRAIN]`), a subroutine call (`REFRAIN`), a computed jump
-(`RETURN N`), and one instruction that reads unsanitized user input
-(`CROWD`). The flag is embedded in a `secret_intro` string that is *never*
-reached by normal execution — the interpreter is told to start at
-`[VERSE1]`, which comes after the intro. The goal is to abuse the
-interpreter to jump backward and print that hidden intro.
+Lyrics jump from verses to the refrain kind of like a subroutine call. There's a hidden refrain this program doesn't print by default. Can you get it to print it? There might be something in it for you.
 
 ## Understanding the Program
 
